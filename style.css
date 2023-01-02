@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 479px){
+    body{
+    background-color: red;
+    font-size: small;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 1023px){
+    body{
+        background-color: green;
+        font-size: medium;
+    }
+    #small{
+        float: left;
+        width: 66%;
+    }
+    #medium{
+        display:inline;
+        width: 33%;
+    #large{
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width: 1024px){
+    body{
+        background-color: blue;
+        font-size: x-large;
+        display: flex;
+    }
+    #large{
+        display: inline;
+    }
+}
